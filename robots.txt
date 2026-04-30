@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Block any admin or private paths if they exist
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemaps
+Sitemap: https://www.prideac.com/sitemap.xml
+
+# Crawl delay for bots other than major search engines
+User-agent: *
+Crawl-delay: 1
+
+# Allow Googlebot full access
+User-agent: Googlebot
+Allow: /
+
+# Allow Bingbot full access
+User-agent: Bingbot
+Allow: /
